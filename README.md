@@ -276,3 +276,13 @@ impact.py create full_infra
 
 This infrastructure offers you the flexibility to utilize every component. You must adhere to the specified steps for each respective component.
 
+<br>
+<br>
+
+## Future Releases
+
+<br>
+
+## Your Feedback
+
+We highly value your feedback, as it plays a crucial role in the continuous development of InfraCraft. Your suggestions and comments are invaluable in further enhancing the tool. Please don't hesitate to share your thoughts either by creating an Issue or reaching out to us via email at info@cyberwarfare.live with the subject "InfraCraft".
