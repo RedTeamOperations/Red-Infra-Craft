@@ -178,7 +178,7 @@ After accessing Mythic, follow these steps to create a payload:
 3. In the "Domain" field, add the domain of the CloudFront distribution. You can obtain this domain from the management console of AWS.
 4. Set the "Callback port" to 443.
 5. Review your payload configuration.
-6.You can view your payload details and download it for use. 
+6. You can view your payload details and download it for use. 
 
 These steps will help you create a payload in Mythic with the appropriate domain and callback port settings for your CloudFront distribution.
 
