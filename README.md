@@ -279,7 +279,27 @@ This infrastructure offers you the flexibility to utilize every component. You m
 <br>
 <br>
 
+## Learning Content
+
+- Red Team Infra Dev [[CRT-ID](https://cyberwarfare.live/product/red-team-infra-developer/)]
+- Multi-Cloud Red Team Analyst [[MCRTA](https://cyberwarfare.live/product/multi-cloud-red-team-analyst-mcrta/)]
+- Hybrid Multi-Cloud Red Team Specialist [[CHMRTS](https://cyberwarfare.live/product/hybrid-multi-cloud-red-team-specialist-chmrts/)]
+
+<br>
+
+
+
 ## Future Releases
+This is the initial version of our tool,  currently hosted on the AWS cloud platform. We've laid the groundwork for this release, focusing on delivering robust and reliable services on AWS.
+
+However, this is just the beginning.
+
+In the near future, we plan to significantly expand the tool's capabilities.
+Our roadmap includes adding support for more frameworks, which will give users more options to meet their specific needs. This expansion will improve the tool's flexibility and usability, targeting a broader audience.
+
+Additionally, we are working to make this tool available on other major cloud providers. Soon, users will be able to access this tool on Microsoft Azure and Google Cloud Platform (GCP). This multi-cloud support will ensure that our tool can integrate seamlessly into a variety of cloud environments, providing more choice and convenience to our users.
+Stay tuned for these exciting updates as we continue to develop and improve our tools to better meet your needs.
+
 
 <br>
 
