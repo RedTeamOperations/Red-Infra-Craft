@@ -114,7 +114,7 @@ Open a different PowerShell window to make a localhost connection for Mythic:
 ssh -L 7443:127.0.0.1:7443 -i "YourSecretFileName" machine_name
 ```
 
-Now, you can open the .env file to retrieve the credentials:
+Now, you can open the .env file  in the first powershell window to retrieve the credentials:
 
 ```bash
 cat .env
