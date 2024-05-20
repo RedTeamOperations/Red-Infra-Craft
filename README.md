@@ -20,7 +20,7 @@ git clone https://github.com/RedTeamOperations/Automate-Red-Team-Infra
 
 ## 3. How to spawn an Infrastructure
 
-Available Infrastructures:
+**Available Infrastructures:**
 
 1) C2 - "Mythic C2, Mythic C2 with CloudFront and Load Balancer"
 2) Payload - "Pwndrop"
@@ -29,7 +29,20 @@ Available Infrastructures:
 
 <br>
 
-Commands to Spawn and Destroy Infras:
+**Help Commands:**
+
+    To know more about this tool.
+      - impact.py info
+
+    To know about arguments.
+      - impact.py --help
+      
+    To view available options. 
+      - impact.py help
+
+<br>
+
+**Commands to Spawn and Destroy Infras:**
 
 | Infrastructure | Command | Description |
 | ------ | ------------ | ------ |
