@@ -1,6 +1,6 @@
 # Automate-Red-Team-Infra
 
-Welcome to the **"InfraCraft"** GitHub repository - your gateway to automating the deployment of robust red team infrastructures! InfraCraft is your trusted companion in effortlessly setting up and managing red team infrastructures, streamlining the process so you can focus on your mission. Whether it's deploying Mythic C2s, orchestrating ELB architectures, or crafting sophisticated phishing setups, InfraCraft empowers red teams to deploy with ease and efficiency. Join us in revolutionizing the way red team infrastructures are built and managed - let's craft infrastructures together with InfraCraft!
+Welcome to the **"RedInfraCraft"** GitHub repository - your gateway to automating the deployment of robust red team infrastructures! RedInfraCraft is your trusted companion in effortlessly setting up and managing red team infrastructures, streamlining the process so you can focus on your mission. Whether it's deploying Mythic C2s, orchestrating ELB architectures, or crafting sophisticated phishing setups, RedInfraCraft empowers red teams to deploy with ease and efficiency. Join us in revolutionizing the way red team infrastructures are built and managed - let's craft infrastructures together with RedInfraCraft!
 
 <br>
 
@@ -9,7 +9,7 @@ To Download Terraform, you can visit their official website [HasiCorp](https://d
 
 <br>
 
-## 2. InfraCraft Tool Installation
+## 2. RedInfraCraft Tool Installation
 To acquire the tool, you'll need to clone this GitHub repository. Try following command:
 
 ```bash
@@ -46,18 +46,18 @@ git clone https://github.com/RedTeamOperations/Automate-Red-Team-Infra
 
 | Infrastructure | Command | Description |
 | ------ | ------------ | ------ |
-| Mythic C2 | impact.py create c2 mythic | To Create Mythic C2 infrastructure. | 
-| Mythic C2 | impact.py destroy c2 mythic | To Destroy Mythic C2 infrastructure. | 
-| Mythic C2 | impact.py create c2 elb_c2 | To Create Mythic C2 with ELB & CloudFront infrastructure. | 
-| Mythic C2 | impact.py destroy c2 elb_c2 | To Destroy Mythic C2 with ELB & CloudFront infrastructure. | 
-| Payload | impact.py create payload pwndrop | To Create pwndrop payload infrastructure. | 
-| Payload | impact.py destroy payload pwndrop | To Destroy pwndrop payload infrastructure. |
-| Phishing | impact.py create phishing gophish | To Create Gophish phishing infrastructure. |
-| Phishing | impact.py destroy phishing gophish | To Destroy Gophish phishing infrastructure. |
-| Phishing | impact.py create phishing evilginx | To Create Evilginx phishing infrastructure. |
-| Phishing | impact.py destroy phishing evilginx | To Destroy Evilginx phishing infrastructure. |
-| All-in-one | impact.py create full_infra | To Create all infrastructures in one go (Mythic C2, Payload, Phishing). |
-| All-in-one | impact.py destroy full_infra | To Destroy all infrastructures in one go (Mythic C2, Payload, Phishing). |
+| Mythic C2 | redinfracraft.py create c2 mythic | To Create Mythic C2 infrastructure. | 
+| Mythic C2 | redinfracraft.py destroy c2 mythic | To Destroy Mythic C2 infrastructure. | 
+| Mythic C2 | redinfracraft.py create c2 elb_c2 | To Create Mythic C2 with ELB & CloudFront infrastructure. | 
+| Mythic C2 | redinfracraft.py destroy c2 elb_c2 | To Destroy Mythic C2 with ELB & CloudFront infrastructure. | 
+| Payload | redinfracraft.py create payload pwndrop | To Create pwndrop payload infrastructure. | 
+| Payload | redinfracraft.py destroy payload pwndrop | To Destroy pwndrop payload infrastructure. |
+| Phishing | redinfracraft.py create phishing gophish | To Create Gophish phishing infrastructure. |
+| Phishing | redinfracraft.py destroy phishing gophish | To Destroy Gophish phishing infrastructure. |
+| Phishing | redinfracraft.py create phishing evilginx | To Create Evilginx phishing infrastructure. |
+| Phishing | redinfracraft.py destroy phishing evilginx | To Destroy Evilginx phishing infrastructure. |
+| All-in-one | redinfracraft.py create full_infra | To Create all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
+| All-in-one | redinfracraft.py destroy full_infra | To Destroy all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
 
 <br>
 
@@ -68,7 +68,7 @@ git clone https://github.com/RedTeamOperations/Automate-Red-Team-Infra
 Upon executing command to spawn infra, you need to authenticate yourself and provide the following details.:
 
 - **var.access_key: AWS Access Key ID** - you need to enter your AWS Management console Access Key ID here.
-- **var.key_name** - InfraCraft automates the retrieval of the secret PEM key file for your EC2 instances, ensuring a hassle-free experience. To ensure uniqueness, you'll provide a distinct name each time. Remembering the PEM file name is essential as you'll need it frequently throughout your operations.
+- **var.key_name** - RedInfraCraft automates the retrieval of the secret PEM key file for your EC2 instances, ensuring a hassle-free experience. To ensure uniqueness, you'll provide a distinct name each time. Remembering the PEM file name is essential as you'll need it frequently throughout your operations.
 - **var.secret_key: AWS Secret Access Key** - you need to enter your AWS Management console Secret Access Key here.
 
 you will see that your infra is deployed successfully. 
@@ -318,4 +318,4 @@ Stay tuned for these exciting updates as we continue to develop and improve our 
 
 ## Your Feedback
 
-We highly value your feedback, as it plays a crucial role in the continuous development of InfraCraft. Your suggestions and comments are invaluable in further enhancing the tool. Please don't hesitate to share your thoughts either by creating an Issue or reaching out to us via email at info@cyberwarfare.live with the subject "InfraCraft".
+We highly value your feedback, as it plays a crucial role in the continuous development of RedInfraCraft. Your suggestions and comments are invaluable in further enhancing the tool. Please don't hesitate to share your thoughts either by creating an Issue or reaching out to us via email at info@cyberwarfare.live with the subject "RedInfraCraft".
