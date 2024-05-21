@@ -1,4 +1,4 @@
-# Automate-Red-Team-Infra
+# Red-Infra-Craft
 
 Welcome to the **"RedInfraCraft"** GitHub repository - your gateway to automating the deployment of robust red team infrastructures! RedInfraCraft is your trusted companion in effortlessly setting up and managing red team infrastructures, streamlining the process so you can focus on your mission. Whether it's deploying Mythic C2s, orchestrating ELB architectures, or crafting sophisticated phishing setups, RedInfraCraft empowers red teams to deploy with ease and efficiency. Join us in revolutionizing the way red team infrastructures are built and managed - let's craft infrastructures together with RedInfraCraft!
 
@@ -32,13 +32,13 @@ git clone https://github.com/RedTeamOperations/Automate-Red-Team-Infra
 **Help Commands:**
 
     To know more about this tool.
-      - impact.py info
+      - redinfracraft.py info
 
     To know about arguments.
-      - impact.py --help
+      - redinfracraft.py --help
       
     To view available options. 
-      - impact.py help
+      - redinfracraft.py help
 
 <br>
 
@@ -98,7 +98,7 @@ you can get this command from your AWS Management Console as well, remember you 
 To Deploy this infra you need to execute following command:
 
 ```bash
-impact.py create c2 mythic
+redinfracraft.py create c2 mythic
 ```
 
 **Note: Perform Common necessary steps mentioned above**
@@ -144,7 +144,7 @@ Visit "https://localhost:7443/new/login" to access Mythic.
 To Deploy this infra you need to execute following command:
 
 ```bash
-impact.py create c2 elb_c2
+redinfracraft.py create c2 elb_c2
 ```
 
 **Note: Perform Common necessary steps mentioned above**
@@ -202,7 +202,7 @@ These steps will help you create a payload in Mythic with the appropriate domain
 To Deploy this infra you need to execute following command:
 
 ```bash
-impact.py create payload pwndrop
+redinfracraft.py create payload pwndrop
 ```
 **Note: Perform Common necessary steps mentioned above**
 
@@ -230,7 +230,7 @@ These steps will help you properly set up and connect to pwndrop after provision
 To Deploy this infra you need to execute following command:
 
 ```bash
-impact.py create phishing gophish
+redinfracraft.py create phishing gophish
 ```
 
 **Note: Perform Common necessary steps mentioned above**
@@ -256,7 +256,7 @@ These steps will help you properly set up and connect to GoPhish after provision
 To Deploy this infra you need to execute following command:
 
 ```bash
-impact.py create phishing evilginx
+redinfracraft.py create phishing evilginx
 ```
 
 **Note: Perform Common necessary steps mentioned above**
@@ -282,7 +282,7 @@ These steps should help you properly set up and connect to EvilGinx after provis
 To Deploy this infra you need to execute following command:
 
 ```bash
-impact.py create full_infra
+redinfracraft.py create full_infra
 ```
 
 **Note: Perform Common necessary steps mentioned above**
@@ -303,7 +303,7 @@ This infrastructure offers you the flexibility to utilize every component. You m
 
 
 ## Future Releases
-This is the initial version of our tool,  currently hosted on the AWS cloud platform. We've laid the groundwork for this release, focusing on delivering robust and reliable services on AWS.
+This is the initial version of our tool, currently hosted on the AWS cloud platform. We've laid the groundwork for this release, focusing on delivering robust and reliable services on AWS.
 
 However, this is just the beginning.
 
