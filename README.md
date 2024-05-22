@@ -147,7 +147,7 @@ Visit "https://localhost:7443/new/login" to access Mythic.
 
 <br>
 
-![Mythic C2_ELB drawio](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/b09b6df7-b7da-44ae-9696-b02a929c862c)
+![mythic_c2-ELB drawio](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/1cdc2a2b-c72e-491d-8989-cf65a7da2acb)
 
 <br>
 
