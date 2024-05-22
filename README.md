@@ -4,8 +4,13 @@ Welcome to the **"RedInfraCraft"** GitHub repository - your gateway to automatin
 
 <br>
 
-## 1. Terraform Installation
+## 1. Prequesite
+
+### 1.1 Terraform Installation
 To Download Terraform, you can visit their official website [HasiCorp](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli). They provide instructions on how to install Terraform on Windows, Linux, and macOS.
+
+### 1.2 Python 
+Make sure you have python installed in your system.
 
 <br>
 
@@ -19,6 +24,8 @@ git clone https://github.com/RedTeamOperations/Automate-Red-Team-Infra
 <br>
 
 ## 3. How to spawn an Infrastructure
+
+RedInfraCraft enables you to deploy any infrastructure in a single step, automating your tasks efficiently.
 
 **Available Infrastructures:**
 
@@ -331,6 +338,8 @@ This infrastructure offers you the flexibility to utilize every component. You m
 <br>
 
 ## Learning Content
+
+If you want to learn more, please refer to this content:
 
 - Red Team Infra Dev [[CRT-ID](https://cyberwarfare.live/product/red-team-infra-developer/)]
 - Multi-Cloud Red Team Analyst [[MCRTA](https://cyberwarfare.live/product/multi-cloud-red-team-analyst-mcrta/)]
