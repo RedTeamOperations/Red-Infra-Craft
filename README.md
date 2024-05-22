@@ -248,6 +248,7 @@ These steps will help you properly set up and connect to pwndrop after provision
 
 <br>
 
+![gophish drawio](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/0330b07e-2214-4018-966f-c4693d71d9ea)
 
 <br>
 
@@ -279,7 +280,7 @@ These steps will help you properly set up and connect to GoPhish after provision
 
 <br>
 
-![evilginx drawio (2)](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/9188f58b-9a83-4953-9645-34939fb6da6e)
+![evilginxx drawio](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/ea337ffe-1857-4cf6-a33f-5552845b66c7)
 
 <br>
 
