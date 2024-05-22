@@ -97,7 +97,7 @@ you can get this command from your AWS Management Console as well, remember you 
 
 <br>
 
-![Mythic_c2 drawio (1)](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/7ffd2b8c-2145-4313-a838-7ac3e5574c7a)
+![Mythic_C2 drawio](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/1c096b1d-7c8e-41db-845d-4ed23a5fd6e0)
 
 <br>
 
