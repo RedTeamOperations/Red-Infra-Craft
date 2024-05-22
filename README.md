@@ -95,6 +95,10 @@ you can get this command from your AWS Management Console as well, remember you 
 
 ### 4.1 Mythic C2
 
+**Mythic_C2 with ELB and CloudFront Infra**
+
+[](url)
+
 To Deploy this infra you need to execute following command:
 
 ```bash
