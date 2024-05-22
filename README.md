@@ -143,8 +143,6 @@ Visit "https://localhost:7443/new/login" to access Mythic.
 
 ### 4.2 Mythic C2 with ELB & CloudFront
 
-**Mythic_C2 with ELB and CloudFront Infra**
-
 <br>
 
 ![mythic_c2-ELB drawio](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/1cdc2a2b-c72e-491d-8989-cf65a7da2acb)
