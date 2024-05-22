@@ -97,7 +97,11 @@ you can get this command from your AWS Management Console as well, remember you 
 
 **Mythic_C2 with ELB and CloudFront Infra**
 
-[](url)
+<br>
+
+![Mythic C2_ELB drawio](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/b09b6df7-b7da-44ae-9696-b02a929c862c)
+
+<br>
 
 To Deploy this infra you need to execute following command:
 
