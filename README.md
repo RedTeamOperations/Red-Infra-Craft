@@ -246,6 +246,11 @@ These steps will help you properly set up and connect to pwndrop after provision
 
 ### 4.4 Phishing - GoPhish
 
+<br>
+
+
+<br>
+
 To Deploy this infra you need to execute following command:
 
 ```bash
@@ -271,6 +276,13 @@ These steps will help you properly set up and connect to GoPhish after provision
 <br>
 
 ### 4.5 Phishing - EvilGinx
+
+<br>
+
+![EvilGinx drawio (1)](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/3904fc6d-8552-402d-ae37-3f7996ff0673)
+
+<br>
+
 
 To Deploy this infra you need to execute following command:
 
