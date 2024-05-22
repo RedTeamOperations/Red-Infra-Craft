@@ -4,7 +4,7 @@ Welcome to the **"RedInfraCraft"** GitHub repository - your gateway to automatin
 
 <br>
 
-## 1. Prequesite
+## 1. Prerequisite
 
 ### 1.1 Terraform Installation
 To Download Terraform, you can visit their official website [HasiCorp](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli). They provide instructions on how to install Terraform on Windows, Linux, and macOS.
