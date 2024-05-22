@@ -211,6 +211,13 @@ These steps will help you create a payload in Mythic with the appropriate domain
 
 ### 4.3 Payload - Pwndrop
 
+<br>
+
+![pwndrop drawio](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/02e642c7-fdea-4a3f-858e-31926e24736d)
+
+<br>
+
+
 To Deploy this infra you need to execute following command:
 
 ```bash
