@@ -92,6 +92,7 @@ ssh -i "YourSecretFileName" machine_name
 you can get this command from your AWS Management Console as well, remember you dont need to add .pem while entering "YourSecretFileName"
 
 <br>
+<br>
 
 ### 4.1 Mythic C2
 
@@ -143,6 +144,7 @@ These steps should help you properly set up and connect to Mythic after provisio
 
 Visit "https://localhost:7443/new/login" to access Mythic.
 
+<br>
 <br>
 
 ### 4.2 Mythic C2 with ELB & CloudFront
@@ -208,6 +210,7 @@ After accessing Mythic, follow these steps to create a payload:
 These steps will help you create a payload in Mythic with the appropriate domain and callback port settings for your CloudFront distribution.
 
 <br>
+<br>
 
 ### 4.3 Payload - Pwndrop
 
@@ -243,6 +246,7 @@ Visit https://<your_machine_ip>/pwndrop to access Pwndrop dashboard
 These steps will help you properly set up and connect to pwndrop after provisioning the infrastructure.
 
 <br>
+<br>
 
 ### 4.4 Phishing - GoPhish
 
@@ -274,6 +278,7 @@ Now you can access all options of GoPhish.
 
 These steps will help you properly set up and connect to GoPhish after provisioning the infrastructure.
 
+<br>
 <br>
 
 ### 4.5 Phishing - EvilGinx
@@ -307,6 +312,7 @@ sudo ~/evilginx2/evilginx2 -p ./phishlets/
 
 These steps should help you properly set up and connect to EvilGinx after provisioning the infrastructure
 
+<br>
 <br>
 
 ### 4.6 All-in-one
