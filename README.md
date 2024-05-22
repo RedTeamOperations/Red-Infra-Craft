@@ -279,7 +279,7 @@ These steps will help you properly set up and connect to GoPhish after provision
 
 <br>
 
-![EvilGinx drawio (1)](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/3904fc6d-8552-402d-ae37-3f7996ff0673)
+![evilginx drawio (2)](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/9188f58b-9a83-4953-9645-34939fb6da6e)
 
 <br>
 
