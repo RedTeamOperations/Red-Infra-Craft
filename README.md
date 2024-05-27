@@ -1,5 +1,7 @@
 # Red-Infra-Craft
 
+![Redinfracraft-Logo__1_-removebg-preview](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/72e4d4ab-8de9-4b17-be1e-df36516b0f55)
+
 Welcome to the **"RedInfraCraft"** GitHub repository - your gateway to automating the deployment of robust red team infrastructures! RedInfraCraft is your trusted companion in effortlessly setting up and managing red team infrastructures, streamlining the process so you can focus on your mission. Whether it's deploying Mythic C2s, orchestrating ELB architectures, or crafting sophisticated phishing setups, RedInfraCraft empowers red teams to deploy with ease and efficiency. Join us in revolutionizing the way red team infrastructures are built and managed - let's craft infrastructures together with RedInfraCraft!
 
 <br>
