@@ -27,6 +27,8 @@ git clone https://github.com/RedTeamOperations/Automate-Red-Team-Infra
 
 RedInfraCraft enables you to deploy any infrastructure in a single step, automating your tasks efficiently.
 
+![user drawio](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/572c8b49-d6ec-4457-ae72-f54e8b9a5681)
+
 **Available Infrastructures:**
 
 1) C2 - "Mythic C2, Mythic C2 with CloudFront and Load Balancer"
