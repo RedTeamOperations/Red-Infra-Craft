@@ -361,6 +361,10 @@ This infrastructure offers you the flexibility to utilize every component. You m
 
 If you want to learn more, please refer to this content:
 
+<br>
+
+![cert drawio](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/c7899211-b812-4aa5-a894-e8361c972914)
+
 - Red Team Infra Dev [[CRT-ID](https://cyberwarfare.live/product/red-team-infra-developer/)]
 - Multi-Cloud Red Team Analyst [[MCRTA](https://cyberwarfare.live/product/multi-cloud-red-team-analyst-mcrta/)]
 - Hybrid Multi-Cloud Red Team Specialist [[CHMRTS](https://cyberwarfare.live/product/hybrid-multi-cloud-red-team-specialist-chmrts/)]
