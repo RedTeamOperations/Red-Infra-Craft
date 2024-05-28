@@ -4,7 +4,14 @@
   <img src="https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/72e4d4ab-8de9-4b17-be1e-df36516b0f55" alt="Redinfracraft Logo">
 </div>
 
-Welcome to the **"RedInfraCraft"** GitHub repository - your gateway to automating the deployment of robust red team infrastructures! RedInfraCraft is your trusted companion in effortlessly setting up and managing red team infrastructures, streamlining the process so you can focus on your mission. Whether it's deploying Mythic C2s, orchestrating ELB architectures, or crafting sophisticated phishing setups, RedInfraCraft empowers red teams to deploy with ease and efficiency. Join us in revolutionizing the way red team infrastructures are built and managed - let's craft infrastructures together with RedInfraCraft!
+Welcome to the **"RedInfraCraft"** Tool - your gateway to automating the deployment of robust red team infrastructures! RedInfraCraft is your trusted companion in effortlessly setting up and managing red team infrastructures, streamlining the process so you can focus on your mission. 
+
+- Simplifies the deployment of Mythic Command and Control (C2) frameworks.
+- Facilitates the creation and management of sophisticated phishing and payload setups
+- Designed to be intuitive and easy to use, reducing the learning curve for red teamers.
+- Provides thorough documentation and guides to assist users at every step.
+
+let's craft infrastructures together with RedInfraCraft!
 
 
 <br>
