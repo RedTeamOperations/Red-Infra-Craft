@@ -342,9 +342,13 @@ These steps should help you properly set up and connect to EvilGinx after provis
 
 ### 4.6 All-in-one
 
-To Deploy this infra you need to execute following command:
+<br>
 
 ![full drawio](https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/50a9d189-7d8a-4336-a7c8-52668cc162b5)
+
+<br>
+
+To Deploy this infra you need to execute following command:
 
 ```bash
 redinfracraft.py create full_infra
