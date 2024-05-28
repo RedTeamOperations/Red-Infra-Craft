@@ -19,7 +19,7 @@ let's craft infrastructures together with RedInfraCraft!
 ## 1. Prerequisite
 
 ### 1.1 Terraform Installation
-To Download Terraform, you can visit their official website [HasiCorp](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli). They provide instructions on how to install Terraform on Windows, Linux, and macOS.
+To Download Terraform, you can visit their official website [HashiCorp](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli). They provide instructions on how to install Terraform on Windows, Linux, and macOS.
 
 ### 1.2 Python 
 Make sure you have python installed in your system.
