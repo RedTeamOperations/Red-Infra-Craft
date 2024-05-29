@@ -192,13 +192,13 @@ def print_info_message():
 ********************************************************************************************************************************************************   
           
 
-                 Introducing RedInfraCraft - your go-to tool for seamlessly crafting and overseeing cloud infrastructures, tailored 
-        specifically for Red Teamers! With RedInfraCraft, you're not just deploying some infrastructure; you are crafting a digital 
-        masterpiece. Whether you're forging Mythic C2s, shaping ELB architectures, or crafting cunning phishing setups, RedInfraCraft 
-        empowers you to build, deploy, and manage with unparalleled ease. Let's turn your cloud dreams into infrastructural realities 
-        with RedInfraCraft - where every deployment is a stroke of genius!"
+                     "Introducing RedInfraCraft - your go-to tool for seamlessly crafting and overseeing cloud infrastructures, tailored 
+            specifically for Red Teamers! With RedInfraCraft, you are not just deploying some infrastructure; you are crafting a digital 
+            masterpiece. Whether you're forging Mythic C2s, shaping ELB architectures, or crafting cunning phishing setups, RedInfraCraft 
+            empowers you to build, deploy, and manage with unparalleled ease. Let's turn your cloud dreams into infrastructural realities 
+            with RedInfraCraft - where every deployment is a stroke of genius!"
 
-                                                                                                         - CyberWarFare Labs
+                                                                                                                      - CyberWarFare Labs
 
     """)
 
