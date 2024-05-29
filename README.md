@@ -11,7 +11,7 @@ Welcome to the **"RedInfraCraft"** Tool - your gateway to automating the deploym
 - Designed to be intuitive and easy to use, reducing the learning curve for red teamers.
 - Provides thorough documentation and guides to assist users at every step.
 
-let's craft infrastructures together with RedInfraCraft!
+Let's craft infrastructures together with RedInfraCraft!
 
 
 <br>
@@ -92,9 +92,9 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
 
 Upon executing command to spawn infra, you need to authenticate yourself and provide the following details.:
 
-- **var.access_key: AWS Access Key ID** - you need to enter your AWS Management console Access Key ID here.
+- **var.access_key: AWS Access Key ID** - You need to enter your AWS Management console Access Key ID here.
 - **var.key_name** - RedInfraCraft automates the retrieval of the secret PEM key file for your EC2 instances, ensuring a hassle-free experience. To ensure uniqueness, you'll provide a distinct name each time. Remembering the PEM file name is essential as you'll need it frequently throughout your operations.
-- **var.secret_key: AWS Secret Access Key** - you need to enter your AWS Management console Secret Access Key here.
+- **var.secret_key: AWS Secret Access Key** - You need to enter your AWS Management console Secret Access Key here.
 
 You will see that your infra is deployed successfully. 
 
@@ -102,7 +102,7 @@ You will see that your infra is deployed successfully.
 
 Once the command is successfuly executed, you'll find the secret file (with the given name) in the same folder were you have deployed the tool inside the respective infra's directory. Now, you need to connect the EC2 instance.
 
-first limit the permissions of the secret file:
+First limit the permissions of the secret file:
 
 ```bash
 chmod 400 YourSecretFileName
@@ -135,7 +135,7 @@ redinfracraft.py create c2 mythic
 
 **Note: Perform Common necessary steps mentioned above**
 
-After making ssh connection with EC2 instance, Check for the “access” directory inside it You will find Mythic, navigate into it:
+After making the ssh connection with EC2 instance, Check for the “access” directory inside it, you will find Mythic, navigate into it:
 
 ```bash
 cd access/Mythic
@@ -159,13 +159,13 @@ Open a different PowerShell window to make a localhost connection for Mythic:
 ssh -L 7443:127.0.0.1:7443 -i "YourSecretFileName" machine_name
 ```
 
-Now, you can open the .env file  in the first powershell window to retrieve the credentials:
+Now, you can open the .env file in the first powershell window to retrieve the credentials:
 
 ```bash
 cat .env
 ```
 
-These steps should help you properly set up and connect to Mythic after provisioning the infrastructure.
+These steps will help you properly set up and connect to Mythic after provisioning the infrastructure.
 
 Visit "https://localhost:7443/new/login" to access Mythic.
 
@@ -188,7 +188,7 @@ redinfracraft.py create c2 elb_c2
 
 **Note: Perform Common necessary steps mentioned above**
 
-After making ssh connection with EC2 instance, Check for the “access” directory inside it You will find Mythic, navigate into it:
+After making the ssh connection with EC2 instance, Check for the “access” directory inside it, You will find Mythic, navigate into it:
 
 ```bash
 cd access/Mythic
@@ -218,7 +218,7 @@ Now, you can open the .env file to retrieve the credentials:
 cat .env
 ```
 
-These steps should help you properly set up and connect to Mythic after provisioning the infrastructure.
+These steps will help you properly set up and connect to Mythic after provisioning the infrastructure.
 
 <br>
 
@@ -253,13 +253,13 @@ redinfracraft.py create payload pwndrop
 ```
 **Note: Perform Common necessary steps mentioned above**
 
-After making ssh connection with EC2 instance, Check for the “Pwndrop” directory, navigate into it:
+After making the ssh connection with EC2 instance, Check for the “pwndrop” directory, navigate into it:
 
 ```bash
 cd pwndrop
 ```
 
-To start the pwndrop on your machine :
+To start the Pwndrop on your machine:
 
 ```bash
 sudo ./pwndrop
@@ -289,7 +289,7 @@ redinfracraft.py create phishing gophish
 
 **Note: Perform Common necessary steps mentioned above**
 
-After making ssh connection with EC2 instance, To start the GoPhish on your machine :
+After making the ssh connection with EC2 instance, to start the GoPhish on your machine, you need to execute following command:
 
 ```bash
 sudo ./gophish
@@ -323,13 +323,13 @@ redinfracraft.py create phishing evilginx
 
 **Note: Perform Common necessary steps mentioned above**
 
-After making ssh connection with EC2 instance, Check for the “evilginx2” directory, navigate into it:
+After making the ssh connection with EC2 instance, Check for the “evilginx2” directory, navigate into it:
 
 ```bash
 cd evilginx2
 ```
 
-To start the pwndrop on your machine :
+To start the EvilGinx on your machine :
 
 ```bash
 sudo ~/evilginx2/evilginx2 -p ./phishlets/
