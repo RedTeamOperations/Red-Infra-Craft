@@ -96,7 +96,7 @@ Upon executing command to spawn infra, you need to authenticate yourself and pro
 - **var.key_name** - RedInfraCraft automates the retrieval of the secret PEM key file for your EC2 instances, ensuring a hassle-free experience. To ensure uniqueness, you'll provide a distinct name each time. Remembering the PEM file name is essential as you'll need it frequently throughout your operations.
 - **var.secret_key: AWS Secret Access Key** - you need to enter your AWS Management console Secret Access Key here.
 
-you will see that your infra is deployed successfully. 
+You will see that your infra is deployed successfully. 
 
 <br>
 
