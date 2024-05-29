@@ -11,7 +11,7 @@ Welcome to the **"RedInfraCraft"** Tool - your gateway to automating the deploym
 - Designed to be intuitive and easy to use, reducing the learning curve for red teamers.
 - Provides thorough documentation and guides to assist users at every step.
 
-Let's craft infrastructures together with RedInfraCraft!
+Let's craft infrastructures together with **RedInfraCraft**!
 
 
 <br>
@@ -93,7 +93,7 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
 Upon executing command to spawn infra, you need to authenticate yourself and provide the following details.:
 
 - **var.access_key: AWS Access Key ID** - You need to enter your AWS Management console Access Key ID here.
-- **var.key_name** - RedInfraCraft automates the retrieval of the secret PEM key file for your EC2 instances, ensuring a hassle-free experience. To ensure uniqueness, you'll provide a distinct name each time. Remembering the PEM file name is essential as you'll need it frequently throughout your operations.
+- **var.key_name** - RedInfraCraft automates the retrieval of the secret PEM key file for your EC2 instances, ensuring a hassle-free experience. **To ensure uniqueness, you need provide a distinct name each time**. Remembering the PEM file name is essential as you'll need it frequently throughout your operations.
 - **var.secret_key: AWS Secret Access Key** - You need to enter your AWS Management console Secret Access Key here.
 
 You will see that your infra is deployed successfully. 
@@ -222,7 +222,7 @@ These steps will help you properly set up and connect to Mythic after provisioni
 
 <br>
 
-To Create Payload:
+**To Create Payload:**
 
 After accessing Mythic, follow these steps to create a payload:
 1. Visit "https://localhost:7443/new/login" to access Mythic.
