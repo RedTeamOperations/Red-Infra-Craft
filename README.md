@@ -114,7 +114,7 @@ Make an SSH connection with the machine:
 ```bash
 ssh -i "YourSecretFileName" machine_name
 ```
-you can get this command from your AWS Management Console as well, remember you dont need to add .pem while entering "YourSecretFileName"
+You can get this command from your AWS Management Console as well, remember you dont need to add .pem while entering "YourSecretFileName"
 
 <br>
 <br>
