@@ -30,7 +30,7 @@ Make sure you have python installed in your system.
 To acquire the tool, you'll need to clone this GitHub repository. Try following command:
 
 ```bash
-git clone https://github.com/RedTeamOperations/Automate-Red-Team-Infra
+git clone https://github.com/RedTeamOperations/Red-Team-Infra
 ```
 
 <br>
