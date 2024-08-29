@@ -73,7 +73,7 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
   redinfracraft.py help
   ```
   
-- Commands to Spawn and Destroy Infras:
+### Commands to Spawn and Destroy Infras:
 
   | Infrastructure | Command | Description |
   | ------ | ------------ | ------ |
@@ -82,7 +82,7 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
   | Mythic C2 | redinfracraft.py create c2 elb_c2 | To Create Mythic C2 with ELB & CloudFront infrastructure. | 
   | Mythic C2 | redinfracraft.py destroy c2 elb_c2 | To Destroy Mythic C2 with ELB & CloudFront infrastructure. | 
   | Payload | redinfracraft.py create payload pwndrop | To Create pwndrop payload infrastructure. | 
-    | Payload | redinfracraft.py destroy payload pwndrop | To Destroy pwndrop payload infrastructure. |
+  | Payload | redinfracraft.py destroy payload pwndrop | To Destroy pwndrop payload infrastructure. |
   | Phishing | redinfracraft.py create phishing gophish | To Create Gophish phishing infrastructure. |
   | Phishing | redinfracraft.py destroy phishing gophish | To Destroy Gophish phishing infrastructure. |
   | Phishing | redinfracraft.py create phishing evilginx | To Create Evilginx phishing infrastructure. |
