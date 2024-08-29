@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="30%" height="30%" src="https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/72e4d4ab-8de9-4b17-be1e-df36516b0f55" alt="Redinfracraft Logo">
+  <img width="40%" height="40%" src="https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/72e4d4ab-8de9-4b17-be1e-df36516b0f55" alt="Redinfracraft Logo">
 </div>
 
 # Red-Infra-Craft
