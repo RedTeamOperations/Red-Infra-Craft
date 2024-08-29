@@ -41,7 +41,13 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
 
 <br>
 
-![spawn an Infrastructure](assets/Common_user.png)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/Common_user1.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/Common_user.png">
+    <img align="center" alt="spawn an Infrastructure" src="assets/Common_user.png">
+  </picture>
+</div>
 
 ### Available Infrastructures:
 
@@ -90,6 +96,7 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
   | All-in-one | redinfracraft.py create full_infra | To Create all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
   | All-in-one | redinfracraft.py destroy full_infra | To Destroy all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
 
+<br>
 
 ## 4. Infrastructure Walkthroughs:
 
@@ -132,13 +139,20 @@ ssh -i "YourSecretFileName" machine_name
 
 You can get this command from your AWS Management Console as well, remember you dont need to add `.pem` while entering *YourSecretFileName*
 
+<br>
 
 ### 4.1 Mythic C2
 
 <br>
 
-![Mythic_C2 drawio](assets/Mythic.png)
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/Mythic1.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/Mythic.png">
+  <img align="center" alt="Mythic_C2" src="assets/Mythic.png">
+</picture>
+</div>
 <br>
 
 - To Deploy this infra you need to execute following command:
@@ -190,7 +204,14 @@ Visit https://localhost:7443/new/login to access Mythic.
 
 <br>
 
-![Mythic_c2_elb drawio](assets/Mythic_ELB.png)
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/Mythic_ELB1.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/Mythic_ELB.png">
+  <img align="center" alt="Mythic_c2_elb" src="assets/Mythic_ELB.png">
+</picture>
+</div>
 
 - To Deploy this infra you need to execute following command:
 
@@ -247,11 +268,20 @@ After accessing Mythic, follow these steps to create a payload:
 
 These steps will help you create a payload in Mythic with the appropriate domain and callback port settings for your CloudFront distribution.
 
+<br>
+
 ### 4.3 Payload - Pwndrop
 
 <br>
 
-![pwndrop drawio](assets/pwndrop.png)
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pwndrop1.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/pwndrop.png">
+  <img align="center" alt="pwndrop" src="assets/pwndrop.png">
+</picture>
+</div>
 
 <br>
 
@@ -279,12 +309,20 @@ Visit https://<your_machine_ip>/pwndrop to access Pwndrop dashboard
 
 These steps will help you properly set up and connect to pwndrop after provisioning the infrastructure.
 
+<br>
 
 ### 4.4 Phishing - GoPhish
 
 <br>
 
-![gophish drawio](assets/gophish.png)
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/gophish1.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/gophish.png">
+  <img align="center" alt="gophish" src="assets/gophish.png">
+</picture>
+</div>
 
 <br>
 
@@ -311,12 +349,19 @@ Now you can access all options of GoPhish.
 
 These steps will help you properly set up and connect to GoPhish after provisioning the infrastructure.
 
+<br>
 
 ### 4.5 Phishing - EvilGinx
 
 <br>
 
-![evilginxx drawio](assets/evilginx.png)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/evilginx1.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/evilginx.png">
+  <img align="center" alt="evilginx" src="assets/evilginx.png">
+</picture>
+</div>
 
 <br>
 
@@ -343,12 +388,19 @@ These steps will help you properly set up and connect to GoPhish after provision
 
 These steps should help you properly set up and connect to EvilGinx after provisioning the infrastructure
 
+<br>
 
 ### 4.6 All-in-one
 
 <br>
 
-![full drawio](assets/overall.png)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/overall1.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/overall.png">
+  <img align="center" alt="overall" src="assets/overall.png">
+</picture>
+</div>
 
 - To Deploy this infra you need to execute following command:
 
@@ -360,6 +412,7 @@ These steps should help you properly set up and connect to EvilGinx after provis
 > Perform Common necessary steps mentioned above**
 
 This infrastructure offers you the flexibility to utilize every component. You must adhere to the specified steps for each respective component.
+<br>
 
 ## Learning Content
 
@@ -367,12 +420,19 @@ If you want to learn more, please refer to this content:
 
 <br>
 
-![cert drawio](assets/Certifications.png)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/Certification1.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/Certifications.png">
+  <img align="center" alt="Certifications" src="assets/Certifications.png">
+</picture>
+</div>
 
 - Red Team Infra Dev [[CRT-ID](https://cyberwarfare.live/product/red-team-infra-developer/)]
 - Multi-Cloud Red Team Analyst [[MCRTA](https://cyberwarfare.live/product/multi-cloud-red-team-analyst-mcrta/)]
 - Hybrid Multi-Cloud Red Team Specialist [[CHMRTS](https://cyberwarfare.live/product/hybrid-multi-cloud-red-team-specialist-chmrts/)]
 
+<br>
 
 ## Future Releases
 This is the initial version of our tool, currently hosted on the AWS cloud platform. We've laid the groundwork for this release, focusing on delivering robust and reliable services on AWS.
@@ -385,6 +445,7 @@ Our roadmap includes adding support for more frameworks, which will give users m
 Additionally, we are working to make this tool available on other major cloud providers. Soon, users will be able to access this tool on Microsoft Azure and Google Cloud Platform (GCP). This multi-cloud support will ensure that our tool can integrate seamlessly into a variety of cloud environments, providing more choice and convenience to our users.
 Stay tuned for these exciting updates as we continue to develop and improve our tools to better meet your needs.
 
+<br>
 
 ## Your Feedback
 
