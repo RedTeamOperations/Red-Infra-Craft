@@ -118,3 +118,12 @@ resource "aws_security_group" "Mythic_EC2_sg" {
 data "aws_vpc" "default" {
   default = true
 }
+
+# Output the public IP of the instance
+output "instance_ip" {
+  value = "Machine Ip: ${aws_instance.Terra_GoPhish_Ec2.public_ip}"
+}
+
+output "username" {
+  value = "Username of Machine: ubuntu" 
+}
