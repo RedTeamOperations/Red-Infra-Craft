@@ -252,3 +252,20 @@ resource "aws_cloudfront_distribution" "my_cloudfront_distribution" {
     }
   }
 }
+
+
+# Output the public IP of the instance
+output "instance_ip" {
+  value = "Instance Ip: ${aws_instance.Terra_Ec2.public_ip}"
+}
+
+
+output "username" {
+  value = "Username of machine: ubuntu" 
+}
+
+
+# Output the CloudFront domain name
+output "cloudfront_domain_name" {
+  value = "CloudFront Domain: ${aws_cloudfront_distribution.my_cloudfront_distribution.domain_name}"
+}
