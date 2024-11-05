@@ -121,7 +121,7 @@ data "aws_vpc" "default" {
 
 # Output the public IP of the instance
 output "instance_ip" {
-  value = "Machine Ip: ${aws_instance.Terra_GoPhish_Ec2.public_ip}"
+  value = "Machine Ip: ${aws_instance.Mythic_EC2.public_ip}"
 }
 
 output "username" {
