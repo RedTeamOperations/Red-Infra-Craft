@@ -157,7 +157,39 @@ You can get this command from your AWS Management Console as well, remember you 
 
 Check out the demo for Infra deployment:
 
-[![asciinema demo](https://asciinema.org/a/S1Gk2UmEB8YrXMyNI2x2LP7jU.svg)](https://asciinema.org/a/S1Gk2UmEB8YrXMyNI2x2LP7jU)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asciinema Recording</title>
+  <!-- Link to the Asciinema Player CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/asciinema-player@2.0.0/dist/asciinema-player.css" />
+</head>
+<body>
+  <!-- The container where the recording will be embedded -->
+  <div id="demo.rec"></div>
+
+  <!-- Asciinema Player to load the recording -->
+  <asciinema-player src="https://yourdomain.com/demo.cast"></asciinema-player>
+
+  <!-- Asciinema Player JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/asciinema-player@2.0.0/dist/asciinema-player.min.js"></script>
+  <script>
+    // Initialize the Asciinema Player
+    AsciinemaPlayer.create('https://yourdomain.com/demo.cast', document.getElementById('demo.rec'), {
+      loop: true,               // Loop the recording
+      cols: 120,                // Set the number of columns in the terminal
+      rows: 25,                 // Set the number of rows in the terminal
+      autoPlay: true,           // Start playing automatically
+      terminalFontSize: "small" // Set terminal font size
+    });
+  </script>
+</body>
+</html>
+
+
+
 
 
 - To Deploy this infra you need to execute following command:
