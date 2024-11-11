@@ -157,37 +157,11 @@ You can get this command from your AWS Management Console as well, remember you 
 
 Check out the demo for Infra deployment:
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Asciinema Recording</title>
-  <!-- Link to the Asciinema Player CSS -->
-  <link rel="stylesheet" href="https://github.com/RedTeamOperations/Red-Infra-Craft/blob/main/asciinema-player.css" />
-</head>
-<body>
-  <!-- The container where the recording will be embedded -->
-  <div id="demo.rec"></div>
+# Demo: Infra Deployment
 
-  <!-- Asciinema Player to load the recording -->
-  <asciinema-player src="https://yourdomain.com/demo.cast"></asciinema-player>
+Check out the demo for Infra deployment (plays directly in browser):
 
-  <!-- Asciinema Player JavaScript -->
-  <script src="https://github.com/RedTeamOperations/Red-Infra-Craft/blob/main/asciinema-player.min.js"></script>
-  <script>
-    // Initialize the Asciinema Player
-    AsciinemaPlayer.create('https://asciinema.org/a/688653', document.getElementById('demo.rec'), {
-      loop: true,               // Loop the recording
-      cols: 120,                // Set the number of columns in the terminal
-      rows: 25,                 // Set the number of rows in the terminal
-      autoPlay: true,           // Start playing automatically
-      terminalFontSize: "small" // Set terminal font size
-    });
-  </script>
-</body>
-</html>
-
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/asciinema_demo.html)
 
 
 
