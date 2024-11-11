@@ -157,7 +157,7 @@ You can get this command from your AWS Management Console as well, remember you 
 
 Check out the demo for Infra deployment:
 
-[![asciinema demo](https://asciinema.org/a/S1Gk2UmEB8YrXMyNI2x2LP7jU)](https://asciinema.org/a/your-video-id)
+[![asciinema demo](https://asciinema.org/a/S1Gk2UmEB8YrXMyNI2x2LP7jU.svg)](https://asciinema.org/a/S1Gk2UmEB8YrXMyNI2x2LP7jU)
 
 
 - To Deploy this infra you need to execute following command:
