@@ -161,7 +161,7 @@ Check out the demo for Infra deployment:
 
 Check out the demo for Infra deployment (plays directly in browser):
 
-[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/html/Mythic_C2.html)
 
 
 
@@ -306,7 +306,7 @@ These steps will help you create a payload in Mythic with the appropriate domain
 
 Check out the demo for Infra deployment (plays directly in browser):
 
-[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/html/pwndrop.html)
 
 - To Deploy this infra you need to execute following command:
 
@@ -353,7 +353,7 @@ These steps will help you properly set up and connect to pwndrop after provision
 
 Check out the demo for Infra deployment (plays directly in browser):
 
-[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/html/GoPhish.html)
 
 - To Deploy this infra you need to execute following command:
 
@@ -398,7 +398,7 @@ These steps will help you properly set up and connect to GoPhish after provision
 
 Check out the demo for Infra deployment (plays directly in browser):
 
-[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/html/EvilGinx.html)
 
 - To Deploy this infra you need to execute following command:
 
