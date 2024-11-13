@@ -161,7 +161,7 @@ Check out the demo for Infra deployment:
 
 Check out the demo for Infra deployment (plays directly in browser):
 
-[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/asciinema_demo.html)
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
 
 
 
@@ -223,6 +223,12 @@ Visit https://localhost:7443/new/login to access Mythic.
   <img align="center" alt="Mythic_c2_elb" src="assets/Mythic_ELB.png">
 </picture>
 </div>
+
+# Demo: Infra Deployment
+
+Check out the demo for Infra deployment (plays directly in browser):
+
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
 
 - To Deploy this infra you need to execute following command:
 
@@ -296,6 +302,12 @@ These steps will help you create a payload in Mythic with the appropriate domain
 
 <br>
 
+# Demo: Infra Deployment
+
+Check out the demo for Infra deployment (plays directly in browser):
+
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
+
 - To Deploy this infra you need to execute following command:
 
 - ```bash
@@ -337,6 +349,12 @@ These steps will help you properly set up and connect to pwndrop after provision
 
 <br>
 
+# Demo: Infra Deployment
+
+Check out the demo for Infra deployment (plays directly in browser):
+
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
+
 - To Deploy this infra you need to execute following command:
 
   ```bash
@@ -376,6 +394,12 @@ These steps will help you properly set up and connect to GoPhish after provision
 
 <br>
 
+# Demo: Infra Deployment
+
+Check out the demo for Infra deployment (plays directly in browser):
+
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
+
 - To Deploy this infra you need to execute following command:
 
   ```bash
@@ -412,6 +436,12 @@ These steps should help you properly set up and connect to EvilGinx after provis
   <img align="center" alt="overall" src="assets/overall.png">
 </picture>
 </div>
+
+# Demo: Infra Deployment
+
+Check out the demo for Infra deployment (plays directly in browser):
+
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
 
 - To Deploy this infra you need to execute following command:
 
