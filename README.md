@@ -228,7 +228,7 @@ Visit https://localhost:7443/new/login to access Mythic.
 
 Check out the demo for Infra deployment (plays directly in browser):
 
-[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2_with_ELB.html)
 
 - To Deploy this infra you need to execute following command:
 
@@ -441,7 +441,7 @@ These steps should help you properly set up and connect to EvilGinx after provis
 
 Check out the demo for Infra deployment (plays directly in browser):
 
-[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Mythic_C2.html)
+[![asciicast](https://asciinema.org/a/688653.png)](https://RedTeamOperations.github.io/Red-Infra-Craft/Full_Infra.html)
 
 - To Deploy this infra you need to execute following command:
 
