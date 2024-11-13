@@ -4,7 +4,9 @@ import os
 current_dir = os.getcwd()
 
 def change_directory(path):
-    os.chdir(current_dir+path)
+    # Use os.path.join to handle cross-platform paths
+    target_path = os.path.join(current_dir, path)
+    os.chdir(target_path)
 
 
 def createTerrformCommand():
@@ -19,62 +21,63 @@ def destroyTerrformCommand():
 
 # Function to deploy Mythic C2
 def deploy_mythic_c2():
-    change_directory("\Terraform\Mythic_C2")
+    change_directory("Terraform/Mythic_C2")
     createTerrformCommand()
 
 
 # Function to deploy ELB C2
 def deploy_elb_c2():
-    change_directory("\Terraform\EC2 Instance")
+    change_directory("Terraform/EC2 Instance")
     createTerrformCommand()
 
 
 # Function to deploy pwndrop
 def deploy_pwndrop():
-    change_directory("\Terraform\Payload Server")
+    change_directory("Terraform/Payload Server")
     createTerrformCommand()
 
 
 # Function to deploy gophish
 def deploy_gophish():
-    change_directory("\Terraform\gophish")
+    change_directory("Terraform/gophish")
     createTerrformCommand()
 
 
 # Function to deploy Evilginx
 def deploy_evilginx():
-    change_directory("\Terraform\Phishing")
+    change_directory("Terraform/Phishing")
     createTerrformCommand()
 
 
 # Function to destroy Mythic C2
 def destroy_mythic_c2():
-    change_directory("\Terraform\Mythic_C2")
+    change_directory("Terraform/Mythic_C2")
     destroyTerrformCommand()
 
 
 # Function to destroy ELB C2
 def destroy_elb_c2():
-    change_directory("\Terraform\EC2 Instance")
+    change_directory("Terraform/EC2 Instance")
     destroyTerrformCommand()
 
 
 # Function to destroy pwndrop
 def destroy_pwndrop():
-    change_directory("\Terraform\Payload Server")
+    change_directory("Terraform/Payload Server")
     destroyTerrformCommand()
 
 
 # Function to destroy gophish
 def destroy_gophish():
-    change_directory("\Terraform\gophish")
+    change_directory("Terraform/gophish")
     destroyTerrformCommand()
 
 
 # Function to destroy Evilginx
 def destroy_evilginx():
-    change_directory("\Terraform\Phishing")
+    change_directory("Terraform/Phishing")
     destroyTerrformCommand()
+
 
 
 # Main function
@@ -178,27 +181,27 @@ def print_info_message():
     print(""" 
     
 ********************************************************************************************************************************************************
-*    ________   _______   _____   _________   ___         _   _______   ________     ____       _______   ________     ____     _______   _________    *   
+*    ________   _______   _____   _________   ___         _   _______   ________     ----       _______   ________     ----     _______   _________    *   
 *   (  ____  ) (  _____) (  _  \ (___   ___) (   \       | ) (  _____) (  ____  )   / __ \     / ______) (  ____  )   / __ \   (  _____) (___   ___)   *     
 *   | |    | | | (       | (  \ \    | |     | |\ \      | | | (       | |    | |  / /  \ \   / /        | |    | |  / /  \ \  | (           | |       *
 *   | |____| | | |       | |   \ \   | |     | | \ \     | | | |       | |____| | | |    | | / /         | |____| | | |    | | | |           | |       *
-*   | _  ___ ) | (_____  | |   | |   | |     | |  \ \    | | | (_____  |  _ ____) | (____) | | |         |  _ ___ ) | (____) | | (_____      | |       *
+*   | _  ___ ) | (_____  | |   | |   | |     | |  \ \    | | | (_____  |  _ ___ ) | (____) | | |         |  _ ___ ) | (____) | | (_____      | |       *
 *   | |\ \     |  _____) | |   | |   | |     | |   \ \   | | |  _____) | |\ \     |  ____  | | |         | |\ \     |  ____  | |  _____)     | |       *  
 *   | | \ \    | (       | |   | |   | |     | |    \ \  | | | (       | | \ \    | (    ) | | |         | | \ \    | (    ) | | (           | |       *
 *   | |  \ \   | |       | |  / /    | |     | |     \ \ | | | |       | |  \ \   | |    | | \ \         | |  \ \   | |    | | | |           | |       *  
 *   | |   \ \  | (_____  | (_/ /  ___| |___  | |      \ \| | | |       | |   \ \  | |    | |  \ \______  | |   \ \  | |    | | | |           | |       * 
-*   (_|    \_\ (_______) (____/  (_________) (_|       \___) (_|       (_|    \_\ (_|    |_)   \_______) (_|    \_\ (_|    |_) (_|           |_|       *     
+*   (_|    \_\ (_______) (___ /  (_________) (_|       \___) (_|       (_|    \_\ (_|    |_)   \_______) (_|    \_\ (_|    |_) (_|           |_|       *     
 *                                                                                                                                                      *
 ********************************************************************************************************************************************************   
           
 
-                     "Introducing RedInfraCraft - your go-to tool for seamlessly crafting and overseeing cloud infrastructures, tailored 
-            specifically for Red Teamers! With RedInfraCraft, you are not just deploying some infrastructure; you are crafting a digital 
-            masterpiece. Whether you're forging Mythic C2s, shaping ELB architectures, or crafting cunning phishing setups, RedInfraCraft 
-            empowers you to build, deploy, and manage with unparalleled ease. Let's turn your cloud dreams into infrastructural realities 
-            with RedInfraCraft - where every deployment is a stroke of genius!"
+                 Introducing RedInfraCraft - your go-to tool for seamlessly crafting and overseeing cloud infrastructures, tailored 
+        specifically for Red Teamers! With RedInfraCraft, you're not just deploying some infrastructure; you are crafting a digital 
+        masterpiece. Whether you're forging Mythic C2s, shaping ELB architectures, or crafting cunning phishing setups, RedInfraCraft 
+        empowers you to build, deploy, and manage with unparalleled ease. Let's turn your cloud dreams into infrastructural realities 
+        with RedInfraCraft - where every deployment is a stroke of genius!"
 
-                                                                                                                      - CyberWarFare Labs
+                                                                                                         - CyberWarFare Labs
 
     """)
 
@@ -211,7 +214,7 @@ Infrastructures:
     1) C2 - "Mythic C2, Mythic C2 with CloudFront and Load Balancer"
     2) Payload - "Pwndrop"
     3) Phishing - "EvilGinx, GoPhish"
-    4) All in One Infra - "Mythic C2 with CloudFront and Load Balancer, Pwndrop, EvilGinx, and GoPhish"     
+    4) All in One Infra - "Mythic C2 with CloudFront and Load Balancer & Pwndrop & EvilGinx & GoPhish"     
 
 To Create Infrastructure:
 
