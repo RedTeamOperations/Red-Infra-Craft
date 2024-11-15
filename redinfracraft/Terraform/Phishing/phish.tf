@@ -140,12 +140,22 @@ data "aws_vpc" "default" {
 }
 
 
+
 # Output the public IP of the instance
 output "instance_ip" {
-  value = "Machine Ip: ${aws_instance.Terra_Phish_Ec2.public_ip}"
+  value = <<EOF
+   ************************************************************
+   | 🖥️ Machine Ip: ${aws_instance.Terra_Phish_Ec2.public_ip} |
+   ************************************************************
+
+EOF
 }
 
-
+# Output the Username of the instance
 output "username" {
-  value = "Username of Machine: ubuntu" 
+  value = <<EOF
+   ********************************** 
+   | 👤 Username of Machine: ubuntu |
+   **********************************
+EOF
 }
