@@ -64,37 +64,37 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
 
 ### Help Commands:
 
-- To know more about this tool.
+- To know more about this tool 💡
   ```bash
   redinfracraft.py info
   ```
   
-- To know about arguments.
+- To know about arguments 💡
   ```bash
   redinfracraft.py --help
   ```
   
-- To view available options.
+- To view available options 💡
   ```bash 
   redinfracraft.py help
   ```
   
-### Commands to Spawn and Destroy Infras:
+### Commands to Spawn 🔧 and Destroy 🗑️ Infras:
 
   | Infrastructure | Command | Description |
   | ------ | ------------ | ------ |
-  | Mythic C2 | redinfracraft.py create c2 mythic | To Create Mythic C2 infrastructure. | 
-  | Mythic C2 | redinfracraft.py destroy c2 mythic | To Destroy Mythic C2 infrastructure. | 
-  | Mythic C2 | redinfracraft.py create c2 elb_c2 | To Create Mythic C2 with ELB & CloudFront infrastructure. | 
-  | Mythic C2 | redinfracraft.py destroy c2 elb_c2 | To Destroy Mythic C2 with ELB & CloudFront infrastructure. | 
-  | Payload | redinfracraft.py create payload pwndrop | To Create pwndrop payload infrastructure. | 
-  | Payload | redinfracraft.py destroy payload pwndrop | To Destroy pwndrop payload infrastructure. |
-  | Phishing | redinfracraft.py create phishing gophish | To Create Gophish phishing infrastructure. |
-  | Phishing | redinfracraft.py destroy phishing gophish | To Destroy Gophish phishing infrastructure. |
-  | Phishing | redinfracraft.py create phishing evilginx | To Create Evilginx phishing infrastructure. |
-  | Phishing | redinfracraft.py destroy phishing evilginx | To Destroy Evilginx phishing infrastructure. |
-  | All-in-one | redinfracraft.py create full_infra | To Create all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
-  | All-in-one | redinfracraft.py destroy full_infra | To Destroy all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
+  | Mythic C2 | 🔧 redinfracraft.py create c2 mythic | To Create Mythic C2 infrastructure. | 
+  | Mythic C2 | 🗑️ redinfracraft.py destroy c2 mythic | To Destroy Mythic C2 infrastructure. | 
+  | Mythic C2 | 🔧 redinfracraft.py create c2 elb_c2 | To Create Mythic C2 with ELB & CloudFront infrastructure. | 
+  | Mythic C2 | 🗑️ redinfracraft.py destroy c2 elb_c2 | To Destroy Mythic C2 with ELB & CloudFront infrastructure. | 
+  | Payload | 🔧 redinfracraft.py create payload pwndrop | To Create pwndrop payload infrastructure. | 
+  | Payload | 🗑️ redinfracraft.py destroy payload pwndrop | To Destroy pwndrop payload infrastructure. |
+  | Phishing | 🔧 redinfracraft.py create phishing gophish | To Create Gophish phishing infrastructure. |
+  | Phishing | 🗑️ redinfracraft.py destroy phishing gophish | To Destroy Gophish phishing infrastructure. |
+  | Phishing | 🔧 redinfracraft.py create phishing evilginx | To Create Evilginx phishing infrastructure. |
+  | Phishing | 🗑️ redinfracraft.py destroy phishing evilginx | To Destroy Evilginx phishing infrastructure. |
+  | All-in-one | 🔧 redinfracraft.py create full_infra | To Create all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
+  | All-in-one | 🗑️ redinfracraft.py destroy full_infra | To Destroy all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
 
 <br>
 
@@ -154,10 +154,9 @@ You can get this command from your AWS Management Console as well, remember you 
 </picture>
 </div>
 <br>
+<br>
 
-Check out the demo for Infra deployment:
-
-# Demo: Infra Deployment
+### Demo: Infra Deployment 🎬
 
 Check out the demo for Infra deployment (plays directly in browser):
 
@@ -214,7 +213,7 @@ Visit https://localhost:7443/new/login to access Mythic.
 ### 4.2 Mythic C2 with ELB & CloudFront
 
 <br>
-
+<br>
 
 <div align="center">
 <picture>
@@ -224,7 +223,9 @@ Visit https://localhost:7443/new/login to access Mythic.
 </picture>
 </div>
 
-# Demo: Infra Deployment
+<br>
+
+### Demo: Infra Deployment 🎬
 
 Check out the demo for Infra deployment (plays directly in browser):
 
@@ -301,8 +302,9 @@ These steps will help you create a payload in Mythic with the appropriate domain
 </div>
 
 <br>
+<br>
 
-# Demo: Infra Deployment
+### Demo: Infra Deployment 🎬
 
 Check out the demo for Infra deployment (plays directly in browser):
 
@@ -348,8 +350,9 @@ These steps will help you properly set up and connect to pwndrop after provision
 </div>
 
 <br>
+<br>
 
-# Demo: Infra Deployment
+### Demo: Infra Deployment 🎬
 
 Check out the demo for Infra deployment (plays directly in browser):
 
@@ -393,8 +396,9 @@ These steps will help you properly set up and connect to GoPhish after provision
 </div>
 
 <br>
+<br>
 
-# Demo: Infra Deployment
+### Demo: Infra Deployment 🎬
 
 Check out the demo for Infra deployment (plays directly in browser):
 
@@ -437,7 +441,8 @@ These steps should help you properly set up and connect to EvilGinx after provis
 </picture>
 </div>
 
-# Demo: Infra Deployment
+
+### Demo: Infra Deployment 🎬
 
 Check out the demo for Infra deployment (plays directly in browser):
 
