@@ -159,3 +159,11 @@ output "username" {
    **********************************
 EOF
 }
+
+output "destroy_infra" {
+  value = <<EOF
+   **********************************************************
+   | 🗑️	Command: redinfracraft.py destroy phishing evilginx |
+   **********************************************************
+EOF 
+}
