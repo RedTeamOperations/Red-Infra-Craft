@@ -83,18 +83,18 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
 
   | Infrastructure | Command | Description |
   | ------ | ------------ | ------ |
-  | Mythic C2 | 🔧 redinfracraft.py create c2 mythic | To Create Mythic C2 infrastructure. | 
-  | Mythic C2 | 🗑️ redinfracraft.py destroy c2 mythic | To Destroy Mythic C2 infrastructure. | 
-  | Mythic C2 | 🔧 redinfracraft.py create c2 elb_c2 | To Create Mythic C2 with ELB & CloudFront infrastructure. | 
-  | Mythic C2 | 🗑️ redinfracraft.py destroy c2 elb_c2 | To Destroy Mythic C2 with ELB & CloudFront infrastructure. | 
-  | Payload | 🔧 redinfracraft.py create payload pwndrop | To Create pwndrop payload infrastructure. | 
-  | Payload | 🗑️ redinfracraft.py destroy payload pwndrop | To Destroy pwndrop payload infrastructure. |
-  | Phishing | 🔧 redinfracraft.py create phishing gophish | To Create Gophish phishing infrastructure. |
-  | Phishing | 🗑️ redinfracraft.py destroy phishing gophish | To Destroy Gophish phishing infrastructure. |
-  | Phishing | 🔧 redinfracraft.py create phishing evilginx | To Create Evilginx phishing infrastructure. |
-  | Phishing | 🗑️ redinfracraft.py destroy phishing evilginx | To Destroy Evilginx phishing infrastructure. |
-  | All-in-one | 🔧 redinfracraft.py create full_infra | To Create all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
-  | All-in-one | 🗑️ redinfracraft.py destroy full_infra | To Destroy all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
+  | Mythic C2 | redinfracraft.py create c2 mythic | To Create Mythic C2 infrastructure. | 
+  | Mythic C2 | redinfracraft.py destroy c2 mythic | To Destroy Mythic C2 infrastructure. | 
+  | Mythic C2 | redinfracraft.py create c2 elb_c2 | To Create Mythic C2 with ELB & CloudFront infrastructure. | 
+  | Mythic C2 | redinfracraft.py destroy c2 elb_c2 | To Destroy Mythic C2 with ELB & CloudFront infrastructure. | 
+  | Payload | redinfracraft.py create payload pwndrop | To Create pwndrop payload infrastructure. | 
+  | Payload | redinfracraft.py destroy payload pwndrop | To Destroy pwndrop payload infrastructure. |
+  | Phishing | redinfracraft.py create phishing gophish | To Create Gophish phishing infrastructure. |
+  | Phishing | redinfracraft.py destroy phishing gophish | To Destroy Gophish phishing infrastructure. |
+  | Phishing | redinfracraft.py create phishing evilginx | To Create Evilginx phishing infrastructure. |
+  | Phishing | redinfracraft.py destroy phishing evilginx | To Destroy Evilginx phishing infrastructure. |
+  | All-in-one | redinfracraft.py create full_infra | To Create all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
+  | All-in-one | redinfracraft.py destroy full_infra | To Destroy all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
 
 <br>
 
