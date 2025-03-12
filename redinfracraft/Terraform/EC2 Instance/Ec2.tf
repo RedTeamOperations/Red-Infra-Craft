@@ -75,7 +75,10 @@ sudo git clone https://github.com/its-a-feature/Mythic
 
 cd /home/ubuntu/access/Mythic
 
-sudo ./install_docker_ubuntu.sh
+sudo mkdir -p /etc/apt/keyrings
+echo "deb [signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian bullseye stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update -y
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 sudo apt-get install -y make
 sudo make
