@@ -11,7 +11,7 @@ Welcome to the **RedInfraCraft** Tool - your gateway to automating the deploymen
 - Designed to be intuitive and easy to use, reducing the learning curve for red teamers.
 - Provides thorough documentation and guides to assist users at every step.
 
-Let's craft infrastructures together with **RedInfraCraft**!
+Let's craft infrastructures together with **RedInfraCraft**!!
 
 ## 1. Prerequisite
 
