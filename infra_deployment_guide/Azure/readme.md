@@ -2,26 +2,38 @@
 
 **Common steps required to perform for each infrastructure deployment.**
 
-Upon executing command to spawn infra, you need to authenticate yourself and provide the following details:
+Before spinning any of the infra make sure you modify **terraform.auto.tfvars** and provide the following required details:
 
-- **var.access_key: AWS Access Key ID**
+Location of **terraform.auto.tfvars** file: RedInfraCraft (V2) << Terraform << terraform.auto.tfvars
+
+- **subscription_id = <YOUR_SUBSCRIPTIO_ID>**
   
-  You need to enter your AWS Management console Access Key ID here.
+  You need to enter your Azure Subscription ID here.
+
+- **tenant_id = <YOUR_TENANT_ID>**
   
-- **var.key_name**
+  You need to enter your Aure Tenant ID here.
   
-  RedInfraCraft automates the retrieval of the secret PEM key file for your EC2 instances, ensuring a hassle-free experience. *To ensure uniqueness, you need to 
+- **client_id = <YOUR_CLIENT_ID>**
+  
+  You need to enter Service Account's Client ID here.
+  
+- **client_secret = <YOUR_CLIENT_SECRET>**
+  
+  You need to enter Service Account's Client ID here.
+
+- **vm_key_name = <VM_Secret_File_Name>**
+  
+  RedInfraCraft automates the retrieval of the secret PEM key file for your VM instances, ensuring a hassle-free experience. *To ensure uniqueness, you need to 
   provide different name each time*. Remembering the PEM file name is essential as you'll need it frequently throughout your operations.
-  
-- **var.secret_key: AWS Secret Access Key**
-  
-  You need to enter your AWS Management console Secret Access Key here.
 
-You will see that your infra is deployed successfully. 
+**Once you make the required changes, you can spawn your infra, every architectures command you will find further in this document!! **
+
+After that you will see that your infra is deployed successfully. 
 
 > [!NOTE]
 > Once the command is successfuly executed, you'll find the secret file (with the given name) in the same folder were you have deployed the tool inside the 
-  respective infra's directory. Now, you need to connect the EC2 instance.
+  respective infra's directory. Now, you need to connect the VM instance.
 
 1. **First limit the permissions of the secret file:**
 
@@ -34,10 +46,9 @@ You can also do it manually as well by visiting properties of the secret file.
 2. **Make an SSH connection with the machine:**
 
 ```bash
-ssh -i "YourSecretFileName" machine_name
+ssh -i "YourSecretFileName" username@ip_address
 ```
 
-You can get this command from your AWS Management Console as well, remember you dont need to add `.pem` while entering *YourSecretFileName*
 
 <br>
 
@@ -48,9 +59,9 @@ You can get this command from your AWS Management Console as well, remember you 
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/Mythic1.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/Mythic.png">
-  <img align="center" alt="Mythic_C2" src="assets/Mythic.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/Mythic_C2_Azure_White.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/Mythic_C2_Azure_Black.png">
+  <img align="center" alt="Mythic_C2" src="assets/Mythic_C2_Azure_White.png">
 </picture>
 </div>
 <br>
@@ -59,13 +70,13 @@ You can get this command from your AWS Management Console as well, remember you 
 - To Deploy this infra you need to execute following command:
 
   ```bash
-  redinfracraft.py create c2 mythic
+  redinfracraft.py create azure c2 mythic
   ```
 
 > [!NOTE]
 > Perform Common necessary steps mentioned above
 
-- After making the ssh connection with EC2 instance, Check for the “access” directory inside it, you will find Mythic, navigate into it:
+- After making the ssh connection with VM instance, Check for the “access” directory inside it, you will find Mythic, navigate into it:
 
   ```bash
   cd access/Mythic
@@ -101,16 +112,16 @@ Visit https://localhost:7443/new/login to access Mythic.
 
 <br>
 
-## 2 Mythic C2 with ELB & CloudFront
+## 2 Mythic C2 with Frontdoor
 
 <br>
 <br>
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/Mythic_ELB1.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/Mythic_ELB.png">
-  <img align="center" alt="Mythic_c2_elb" src="assets/Mythic_ELB.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/Mythic_C2with_ELB_Azure_White.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/Mythic_C2with_ELB_Azure_Black.png">
+  <img align="center" alt="Mythic_c2_elb" src="assets/Mythic_C2with_ELB_Azure_White.png">
 </picture>
 </div>
 
@@ -119,13 +130,13 @@ Visit https://localhost:7443/new/login to access Mythic.
 - To Deploy this infra you need to execute following command:
 
   ```bash
-  redinfracraft.py create c2 elb_c2
+  redinfracraft.py create aure c2 elb_c2
   ```
 
 > [!NOTE]
 > Perform Common necessary steps mentioned above
 
-- After making the ssh connection with EC2 instance, Check for the “access” directory inside it, You will find Mythic, navigate into it:
+- After making the ssh connection with VM instance, Check for the “access” directory inside it, You will find Mythic, navigate into it:
 
   ```bash
   cd access/Mythic
@@ -180,9 +191,9 @@ These steps will help you create a payload in Mythic with the appropriate domain
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/pwndrop1.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/pwndrop.png">
-  <img align="center" alt="pwndrop" src="assets/pwndrop.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pwndrop_Azure_White.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/pwndrop_Azure_Black.png">
+  <img align="center" alt="pwndrop" src="assets/pwndrop_Azure_White.png">
 </picture>
 </div>
 
@@ -192,12 +203,12 @@ These steps will help you create a payload in Mythic with the appropriate domain
 - To Deploy this infra you need to execute following command:
 
 - ```bash
-  redinfracraft.py create payload pwndrop
+  redinfracraft.py create azure payload pwndrop
   ```
 > [!NOTE] 
 > Perform Common necessary steps mentioned above
 
-- After making the ssh connection with EC2 instance, Check for the “pwndrop” directory, navigate into it:
+- After making the ssh connection with VM instance, Check for the “pwndrop” directory, navigate into it:
 
   ```bash
   cd pwndrop
@@ -222,9 +233,9 @@ These steps will help you properly set up and connect to pwndrop after provision
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/gophish1.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/gophish.png">
-  <img align="center" alt="gophish" src="assets/gophish.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/GoPhish_Azure_White.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/GoPhish_Azure_Black.png">
+  <img align="center" alt="gophish" src="assets/GoPhish_Azure_White.png">
 </picture>
 </div>
 
@@ -234,13 +245,13 @@ These steps will help you properly set up and connect to pwndrop after provision
 - To Deploy this infra you need to execute following command:
 
   ```bash
-  redinfracraft.py create phishing gophish
+  redinfracraft.py create azure phishing gophish
   ```
 
 > [!NOTE]
 > Perform Common necessary steps mentioned above
 
-- After making the ssh connection with EC2 instance, to start the GoPhish on your machine, you need to execute following command:
+- After making the ssh connection with VM instance, to start the GoPhish on your machine, you need to execute following command:
 
   ```bash
   sudo ./gophish
@@ -262,9 +273,9 @@ These steps will help you properly set up and connect to GoPhish after provision
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/evilginx1.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/evilginx.png">
-  <img align="center" alt="evilginx" src="assets/evilginx.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/Evilginx_Azure_White.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/Evilginx_Azure_Black.png">
+  <img align="center" alt="evilginx" src="assets/Evilginx_Azure_White.png">
 </picture>
 </div>
 
@@ -274,13 +285,13 @@ These steps will help you properly set up and connect to GoPhish after provision
 - To Deploy this infra you need to execute following command:
 
   ```bash
-  redinfracraft.py create phishing evilginx
+  redinfracraft.py create azure phishing evilginx
   ```
 
 > [!NOTE]
 > Perform Common necessary steps mentioned above
 
-- After making the ssh connection with EC2 instance, Check for the “evilginx2” directory, navigate into it:
+- After making the ssh connection with VM instance, Check for the “evilginx2” directory, navigate into it:
 
   ```bash
   cd evilginx2
@@ -311,7 +322,7 @@ These steps should help you properly set up and connect to EvilGinx after provis
 - To Deploy this infra you need to execute following command:
 
   ```bash
-  redinfracraft.py create full_infra
+  redinfracraft.py create azure full_infra
   ```
 
 > [!NOTE]
