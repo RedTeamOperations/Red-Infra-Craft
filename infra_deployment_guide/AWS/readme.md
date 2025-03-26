@@ -337,7 +337,7 @@ These steps should help you properly set up and connect to EvilGinx after provis
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/AWS_Full_infra_White.png">
   <source media="(prefers-color-scheme: light)" srcset="assets/AWS_Full_infra_Black.png">
-  <img align="center" alt="overall" src="assets/overall.png">
+  <img align="center" alt="overall" src="assets/AWS_Full_infra_White.png">
 </picture>
 </div>
 
