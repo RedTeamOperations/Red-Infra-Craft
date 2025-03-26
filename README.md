@@ -130,6 +130,50 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
 
 <br>
 
+## Cost $ Specification Overview (Cloud Resources)
+
+### 1. AWS 
+
+
+  | Resources | Details |
+  | ------ | ------------ |
+  | EC2 Instance	 | t2.medium (2 vCPU, 4 GB RAM) - Ubuntu AMI: ami-080e1f13689e07408 |
+  | Volume (Root Block Device)	 | 20 GB (gp2 EBS)|
+  | Security Groups	 | 	1) "Terra_Ec2_sg: Allows SSH (22), HTTP (80) from ELB" 2) "terraElbSg: Allows HTTP (80)" |
+  | Key Pair | RSA 4096-bit key pair generated via Terraform |
+  | Application Load Balancer (ALB) | Internet-facing, HTTP only, with target group |
+  | Target Group | HTTP on port 80, attached to EC2 instance |
+  | CloudFront | CDN distribution pointing to the ALB |
+  | VPC & Subnets | Using default VPC and multiple subnets |
+  | Data sources used	 | 1) Public IP fetch (ipify), 2) AWS VPC, 3) Subnets in selected AZs |
+  
+Total Estimated Cost: $4.20/day  
+* Actual CloudFront + data transfer may vary with usage and traffic  
+
+### 2. Azure 
+
+  | Resources | Details |
+  | ------ | ------------ |
+  | VM	 | Ubuntu 18.04, size: Standard_B1ms, SSH only, User: azureuser |
+  | NIC | Connected to subnet & public IP: Dynamic IP, DNS label hardcoded |
+  | NSG | Rules for HTTP, HTTPS (from AzureFrontDoor), SSH (from any) |
+  | SSH Key	 | RSA 4096-bit key pair generated locally |
+  | Frontdoor | Origin, Origin Group, Front Door Endpoint, Front Door Route |
+
+Total Estimated Cost: $3.74/day  
+* This assumes light/moderate usage, 1 VM, and no additional premium services (like WAF, Private Link, or DDoS Protectio, actual cost may vary
+
+### 3. GCP
+
+  | Resources | Details |
+  | ------ | ------------ |
+  | Compute Instance	 | Machine: n2-standard-2, OS: Debian 11, Public IP: Ephemeral, Scratch Disk: NVMe, Instance Group |
+  | Firewall Rule | Allow: TCP 80 , Allow: TCP 443, Allow: TCP 80/443 Sources: GCP Health Check IP ranges |
+  | Load Balancer | Global IP Address, Health Check, Frontend Service, Backend Service, URL Map, HTTP Proxy |
+
+Total Estimated Cost: $5.6/day   
+* actual cost may vary
+
 
 ## Learning Content
 
