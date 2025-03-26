@@ -2,16 +2,16 @@
   <img width="40%" height="40%" src="https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/72e4d4ab-8de9-4b17-be1e-df36516b0f55" alt="Redinfracraft Logo">
 </div>
 
-# Red-Infra-Craft
+# Red-Infra-Craft (V2)
 
-Welcome to the **RedInfraCraft** Tool - your gateway to automating the deployment of robust red team infrastructures! RedInfraCraft is your trusted companion in effortlessly setting up and managing red team infrastructures, streamlining the process so you can focus on your mission. 
+Welcome to the **RedInfraCraft (V2)** Tool - your gateway to automating the deployment of robust red team infrastructures! RedInfraCraft is your trusted companion in effortlessly setting up and managing red team infrastructures, streamlining the process so you can focus on your mission. 
 
 - Simplifies the deployment of Mythic Command and Control (C2) frameworks.
 - Facilitates the creation and management of sophisticated phishing and payload setups
 - Designed to be intuitive and easy to use, reducing the learning curve for red teamers.
 - Provides thorough documentation and guides to assist users at every step.
 
-Let's craft infrastructures together with **RedInfraCraft**!!
+Let's craft infrastructures together with **RedInfraCraft (V2)**!!
 
 ## 1. Prerequisite
 
@@ -53,7 +53,9 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
 
 - **C2:**
   - Mythic C2 
-  - Mythic C2 with CloudFront and Load Balancer
+  - Mythic C2 with CloudFront and Load Balancer (AWS)
+  - Mythic C2 with Frontdoor and Load Balancer (Azure)
+  - Mythic C2 with Application Load Balancer (GCP)
 - **Payload:**
   - Pwndrop
 - **Phishing:** 
@@ -61,6 +63,12 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
   - GoPhish
 - **All in One Infra:** 
   - Mythic C2 with CloudFront and Load Balancer, Pwndrop, EvilGinx, GoPhish.
+  - Mythic C2 with Frontdoor and Load Balancer, Pwndrop, EvilGinx, GoPhish.
+
+### Cloud Providers
+1) AWS
+2) Azure
+3) GCP
 
 ### Help Commands:
 
@@ -81,20 +89,34 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
   
 ### Commands to Spawn 🔧 and Destroy 🗑️ Infras:
 
-  | Infrastructure | Command | Description |
-  | ------ | ------------ | ------ |
-  | Mythic C2 🔧 | redinfracraft.py create c2 mythic | To Create Mythic C2 infrastructure. | 
-  | Mythic C2 🗑️ | redinfracraft.py destroy c2 mythic | To Destroy Mythic C2 infrastructure. | 
-  | Mythic C2 🔧 | redinfracraft.py create c2 elb_c2 | To Create Mythic C2 with ELB & CloudFront infrastructure. | 
-  | Mythic C2 🗑️ | redinfracraft.py destroy c2 elb_c2 | To Destroy Mythic C2 with ELB & CloudFront infrastructure. | 
-  | Payload 🔧 | redinfracraft.py create payload pwndrop | To Create pwndrop payload infrastructure. | 
-  | Payload 🗑️ | redinfracraft.py destroy payload pwndrop | To Destroy pwndrop payload infrastructure. |
-  | Phishing 🔧 | redinfracraft.py create phishing gophish | To Create Gophish phishing infrastructure. |
-  | Phishing 🗑️ | redinfracraft.py destroy phishing gophish | To Destroy Gophish phishing infrastructure. |
-  | Phishing 🔧 | redinfracraft.py create phishing evilginx | To Create Evilginx phishing infrastructure. |
-  | Phishing 🗑️ | redinfracraft.py destroy phishing evilginx | To Destroy Evilginx phishing infrastructure. |
-  | All-in-one 🔧 | redinfracraft.py create full_infra | To Create all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
-  | All-in-one 🗑️ | redinfracraft.py destroy full_infra | To Destroy all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
+  | Infrastructure | Cloud Provider | Command | Description |
+  | ------ | -- | ------------ | ------ |
+  | Mythic C2 🔧 | AWS | redinfracraft.py create aws c2 mythic | To Create Mythic C2 infrastructure. | 
+  | Mythic C2 🗑️ | AWS | redinfracraft.py destroy aws c2 mythic | To Destroy Mythic C2 infrastructure. | 
+  | Mythic C2 🔧 | Azure | redinfracraft.py create azure c2 mythic | To Create Mythic C2 infrastructure. | 
+  | Mythic C2 🗑️ | Azure | redinfracraft.py destroy azure c2 mythic | To Destroy Mythic C2 infrastructure. | 
+  | Mythic C2 🔧 | AWS | redinfracraft.py create aws c2 elb_c2 | To Create Mythic C2 with ELB & CloudFront infrastructure. | 
+  | Mythic C2 🗑️ | AWS | redinfracraft.py destroy aws c2 elb_c2 | To Destroy Mythic C2 with ELB & CloudFront infrastructure. | 
+  | Mythic C2 🔧 | Azure | redinfracraft.py create azure c2 elb_c2 | To Create Mythic C2 with ELB & Frontdoor infrastructure. | 
+  | Mythic C2 🗑️ | Azure | redinfracraft.py destroy azure c2 elb_c2 | To Destroy Mythic C2 with ELB & Frontdoor infrastructure. |
+  | Mythic C2 🔧 | GCP | redinfracraft.py create gcp c2 elb_c2 | To Create Mythic C2 with ALB infrastructure. | 
+  | Mythic C2 🗑️ | GCP | redinfracraft.py destroy gcp c2 elb_c2 | To Destroy Mythic C2 with ALB infrastructure. | 
+  | Payload 🔧 | AWS | redinfracraft.py create aws payload pwndrop | To Create pwndrop payload infrastructure. | 
+  | Payload 🗑️ | AWS | redinfracraft.py destroy aws payload pwndrop | To Destroy pwndrop payload infrastructure. |
+  | Payload 🔧 | Azure | redinfracraft.py create azure payload pwndrop | To Create pwndrop payload infrastructure. | 
+  | Payload 🗑️ | Azure | redinfracraft.py destroy azure payload pwndrop | To Destroy pwndrop payload infrastructure. |
+  | Phishing 🔧 | AWS | redinfracraft.py create aws phishing gophish | To Create Gophish phishing infrastructure. |
+  | Phishing 🗑️ | AWS | redinfracraft.py destroy aws phishing gophish | To Destroy Gophish phishing infrastructure. |
+  | Phishing 🔧 | Azure | redinfracraft.py create azure phishing gophish | To Create Gophish phishing infrastructure. |
+  | Phishing 🗑️ | Azure | redinfracraft.py destroy azure phishing gophish | To Destroy Gophish phishing infrastructure. |
+  | Phishing 🔧 | AWS | redinfracraft.py create aws phishing evilginx | To Create Evilginx phishing infrastructure. |
+  | Phishing 🗑️ | AWS | redinfracraft.py destroy aws phishing evilginx | To Destroy Evilginx phishing infrastructure. |
+  | Phishing 🔧 | Azure | redinfracraft.py create azure phishing evilginx | To Create Evilginx phishing infrastructure. |
+  | Phishing 🗑️ | Azure | redinfracraft.py destroy azure phishing evilginx | To Destroy Evilginx phishing infrastructure. |
+  | All-in-one 🔧 | AWS | redinfracraft.py create aws full_infra | To Create all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
+  | All-in-one 🗑️ | AWS | redinfracraft.py destroy aws full_infra | To Destroy all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
+  | All-in-one 🔧 | Azure | redinfracraft.py create azure full_infra | To Create all infrastructures in one go (Mythic C2 with Frontdoor and Load Balancer, Payload, Phishing). |
+  | All-in-one 🗑️ | Azure | redinfracraft.py destroy azure full_infra | To Destroy all infrastructures in one go (Mythic C2 with Frontdoor and Load Balancer, Payload, Phishing). |
 
 <br>
 
@@ -120,15 +142,13 @@ If you want to learn more, please refer to this content:
 <br>
 
 ## Future Releases
-This is the initial version of our tool, currently hosted on the AWS cloud platform. We've laid the groundwork for this release, focusing on delivering robust and reliable services on AWS.
+Our tool now supports a multi-cloud environment, seamlessly operating across AWS, Microsoft Azure, and Google Cloud Platform (GCP). This broad support ensures maximum flexibility, allowing users to integrate the tool into their preferred cloud infrastructure with ease.
 
-However, this is just the beginning.
+But we’re just getting started.
 
-In the near future, we plan to significantly expand the tool's capabilities.
-Our roadmap includes adding support for more frameworks, which will give users more options to meet their specific needs. This expansion will improve the tool's flexibility and usability, targeting a broader audience.
+In upcoming releases, we plan to introduce new cloud-native architectures and additional Command and Control (C2) mechanisms across all supported platforms. These enhancements will further strengthen the tool's capabilities for cloud security operations, offering deeper insights and more powerful features for both offensive and defensive use cases.
 
-Additionally, we are working to make this tool available on other major cloud providers. Soon, users will be able to access this tool on Microsoft Azure and Google Cloud Platform (GCP). This multi-cloud support will ensure that our tool can integrate seamlessly into a variety of cloud environments, providing more choice and convenience to our users.
-Stay tuned for these exciting updates as we continue to develop and improve our tools to better meet your needs.
+Stay tuned as we continue to innovate and expand our tool to meet the evolving needs of the cloud security community.
 
 <br>
 
