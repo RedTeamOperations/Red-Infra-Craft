@@ -25,6 +25,16 @@ To follow this guide, you'll need to have the following software installed on yo
 
   Make sure you have [Python](https://www.python.org/) installed in your system.
 
+- Cloud Provider Access
+
+  You should have an active account and proper credentials/license for at least one of the following cloud providers:
+
+  - Amazon Web Services (AWS)
+  - Microsoft Azure
+  - Google Cloud Platform (GCP)
+
+  This guide assumes you have sufficient permissions to create and manage resources within your chosen cloud environment.
+
 ## 2. RedInfraCraft Tool Installation
 To acquire the tool, you need to clone this GitHub repository. Paste the below command in your terminal.
 
