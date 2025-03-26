@@ -2,12 +2,24 @@
 
 **Common steps required to perform for each infrastructure deployment.**
 
-Before spinning any of the infra make sure you modify **terraform.auto.tfvars** and provide the following required details:
+Step-1: Before spinning any of the infra make sure you modify **terraform.auto.tfvars** and provide the following required details:
 
 Location of **terraform.auto.tfvars** file: RedInfraCraft (V2) << Terraform << terraform.auto.tfvars
 
+- **project_id = "<YOUR_PROJECT_ID>"** 
+  
+  You need to enter your Azure Project ID here.
 
-**Once you make the required changes, you can spawn your infra, every architectures command you will find further in this document!! **
+- **location = "<YOUR_GCP_LOCATION>"**
+
+  You need to enter your GCP Location here.
+
+Step-2: You need to authenticate to your Google Cloud Platform
+```bash
+gcloud auth activate-service-account --key-file <Path_of_Service_account_key_file>
+```
+
+**Once you make the required changes and authenticate to Google Cloud Platform, you can spawn your infra, every architectures command you will find further in this document!! **
 
 After that you will see that your infra is deployed successfully. 
 
@@ -28,8 +40,6 @@ You can also do it manually as well by visiting properties of the secret file.
 ```bash
 ssh -i "YourSecretFileName" username@ip_address
 ```
-
-
 <br>
 
 ## 2 Mythic C2 with ALB
