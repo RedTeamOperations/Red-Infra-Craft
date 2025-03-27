@@ -4,9 +4,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/RedInfraCraft_White.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/redInfraCraft_white.jpg">
   <source media="(prefers-color-scheme: light)" srcset="assets/RedInfraCraft_Black.png">
-  <img align="center" alt="Mythic_C2" src="assets/RedInfraCraft_White.png">
+  <img align="center" alt="Mythic_C2" src="assets/redInfraCraft_white.jpg">
 </picture>
 </div>
 
