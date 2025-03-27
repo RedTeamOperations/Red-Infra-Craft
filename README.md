@@ -1,12 +1,10 @@
-<div align="center">
-  <img width="40%" height="40%" src="https://github.com/RedTeamOperations/Automate-Red-Team-Infra/assets/86774143/72e4d4ab-8de9-4b17-be1e-df36516b0f55" alt="Redinfracraft Logo">
-</div>
+
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/redInfraCraft_white.jpg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/RedinfraCraft_White.png">
   <source media="(prefers-color-scheme: light)" srcset="assets/RedInfraCraft_Black.png">
-  <img align="center" alt="Mythic_C2" src="assets/redInfraCraft_white.jpg">
+  <img align="center" alt="Mythic_C2" src="assets/RedinfraCraft_White.png">
 </picture>
 </div>
 
