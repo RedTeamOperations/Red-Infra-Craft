@@ -12,12 +12,15 @@
 
 Welcome to the **RedInfraCraft (V2)** Tool - your gateway to automating the deployment of robust red team infrastructures! RedInfraCraft is your trusted companion in effortlessly setting up and managing red team infrastructures, streamlining the process so you can focus on your mission. 
 
-- Simplifies the deployment of Mythic Command and Control (C2) frameworks.
-- Facilitates the creation and management of sophisticated phishing and payload setups
-- Designed to be intuitive and easy to use, reducing the learning curve for red teamers.
-- Provides thorough documentation and guides to assist users at every step.
+- Simplifies the deployment 🚀 of Mythic Command and Control (C2) frameworks. 
+- Facilitates the creation 🎯 and management of sophisticated phishing and payload setups. 
+- Designed 💡 to be intuitive and easy to use, reducing the learning curve for red teamers.  
+- Provides thorough documentation 📚 and guides to assist users at every step.  
+- Supports multi-cloud ☁️ environments, allowing deployments across different cloud providers with flexibility and ease.  
 
 Let's craft infrastructures together with **RedInfraCraft (V2)**!!
+
+<br>
 
 ## 1. Prerequisite
 
@@ -31,7 +34,7 @@ To follow this guide, you'll need to have the following software installed on yo
 
   Make sure you have [Python](https://www.python.org/) installed in your system.
 
-- Cloud Provider Access
+- **Cloud Provider Access**
 
   You should have an active account and proper credentials/license for at least one of the following cloud providers:
 
@@ -40,6 +43,7 @@ To follow this guide, you'll need to have the following software installed on yo
   - Google Cloud Platform (GCP)
 
   This guide assumes you have sufficient permissions to create and manage resources within your chosen cloud environment.
+<br>
 
 ## 2. RedInfraCraft Tool Installation
 To acquire the tool, you need to clone this GitHub repository. Paste the below command in your terminal.
@@ -50,6 +54,7 @@ To acquire the tool, you need to clone this GitHub repository. Paste the below c
 ```bash
 git clone https://github.com/RedTeamOperations/Red-Infra-Craft.git
 ```
+<br>
 
 ## 3. How to spawn an Infrastructure?
 
@@ -105,38 +110,36 @@ RedInfraCraft enables you to deploy any infrastructure in a single step, automat
   
 ### Commands to Spawn 🔧 and Destroy 🗑️ Infras:
 
+Command Explanation:
+  
+  --> redinfracraft.py  action  cloud_provider  infra_type  infra
+    
+- redinfracraft.py  create       aws            c2      mythic
+    
+- redinfracraft.py  destroy      azure          c2      mythic
+    
+- redinfracraft.py  create       gcp            c2      mythic
+
+
   | Infrastructure | Cloud Provider | Command | Description |
   | ------ | -- | ------------ | ------ |
-  | Mythic C2 🔧 | AWS | redinfracraft.py create aws c2 mythic | To Create Mythic C2 infrastructure. | 
-  | Mythic C2 🗑️ | AWS | redinfracraft.py destroy aws c2 mythic | To Destroy Mythic C2 infrastructure. | 
-  | Mythic C2 🔧 | Azure | redinfracraft.py create azure c2 mythic | To Create Mythic C2 infrastructure. | 
-  | Mythic C2 🗑️ | Azure | redinfracraft.py destroy azure c2 mythic | To Destroy Mythic C2 infrastructure. | 
-  | Mythic C2 🔧 | AWS | redinfracraft.py create aws c2 elb_c2 | To Create Mythic C2 with ELB & CloudFront infrastructure. | 
-  | Mythic C2 🗑️ | AWS | redinfracraft.py destroy aws c2 elb_c2 | To Destroy Mythic C2 with ELB & CloudFront infrastructure. | 
-  | Mythic C2 🔧 | Azure | redinfracraft.py create azure c2 elb_c2 | To Create Mythic C2 with ELB & Frontdoor infrastructure. | 
-  | Mythic C2 🗑️ | Azure | redinfracraft.py destroy azure c2 elb_c2 | To Destroy Mythic C2 with ELB & Frontdoor infrastructure. |
-  | Mythic C2 🔧 | GCP | redinfracraft.py create gcp c2 elb_c2 | To Create Mythic C2 with ALB infrastructure. | 
-  | Mythic C2 🗑️ | GCP | redinfracraft.py destroy gcp c2 elb_c2 | To Destroy Mythic C2 with ALB infrastructure. | 
-  | Payload 🔧 | AWS | redinfracraft.py create aws payload pwndrop | To Create pwndrop payload infrastructure. | 
-  | Payload 🗑️ | AWS | redinfracraft.py destroy aws payload pwndrop | To Destroy pwndrop payload infrastructure. |
-  | Payload 🔧 | Azure | redinfracraft.py create azure payload pwndrop | To Create pwndrop payload infrastructure. | 
-  | Payload 🗑️ | Azure | redinfracraft.py destroy azure payload pwndrop | To Destroy pwndrop payload infrastructure. |
-  | Phishing 🔧 | AWS | redinfracraft.py create aws phishing gophish | To Create Gophish phishing infrastructure. |
-  | Phishing 🗑️ | AWS | redinfracraft.py destroy aws phishing gophish | To Destroy Gophish phishing infrastructure. |
-  | Phishing 🔧 | Azure | redinfracraft.py create azure phishing gophish | To Create Gophish phishing infrastructure. |
-  | Phishing 🗑️ | Azure | redinfracraft.py destroy azure phishing gophish | To Destroy Gophish phishing infrastructure. |
-  | Phishing 🔧 | AWS | redinfracraft.py create aws phishing evilginx | To Create Evilginx phishing infrastructure. |
-  | Phishing 🗑️ | AWS | redinfracraft.py destroy aws phishing evilginx | To Destroy Evilginx phishing infrastructure. |
-  | Phishing 🔧 | Azure | redinfracraft.py create azure phishing evilginx | To Create Evilginx phishing infrastructure. |
-  | Phishing 🗑️ | Azure | redinfracraft.py destroy azure phishing evilginx | To Destroy Evilginx phishing infrastructure. |
-  | All-in-one 🔧 | AWS | redinfracraft.py create aws full_infra | To Create all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
-  | All-in-one 🗑️ | AWS | redinfracraft.py destroy aws full_infra | To Destroy all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
-  | All-in-one 🔧 | Azure | redinfracraft.py create azure full_infra | To Create all infrastructures in one go (Mythic C2 with Frontdoor and Load Balancer, Payload, Phishing). |
-  | All-in-one 🗑️ | Azure | redinfracraft.py destroy azure full_infra | To Destroy all infrastructures in one go (Mythic C2 with Frontdoor and Load Balancer, Payload, Phishing). |
+  | Mythic C2 | AWS | redinfracraft.py create/destroy aws c2 mythic | To Create/destroy Mythic C2 infrastructure. | 
+  | Mythic C2 | Azure | redinfracraft.py create/destroy azure c2 mythic | To Create/destroy Mythic C2 infrastructure. | 
+  | Mythic C2 | AWS | redinfracraft.py create/destroy aws c2 mythic_lb | To Create/destroy Mythic C2 with ELB & CloudFront infrastructure. | 
+  | Mythic C2 | Azure | redinfracraft.py create/destroy azure c2 mythic_lb | To Create/destroy Mythic C2 with ELB & Frontdoor infrastructure. | 
+  | Mythic C2 | GCP | redinfracraft.py create/destroy gcp c2 mythic_lb | To Create/destroy Mythic C2 with ALB infrastructure. | 
+  | Payload | AWS | redinfracraft.py create/destroy aws payload pwndrop | To Create/destroy pwndrop payload infrastructure. | 
+  | Payload | Azure | redinfracraft.py create/destroy azure payload pwndrop | To Create/destroy pwndrop payload infrastructure. | 
+  | Phishing | AWS | redinfracraft.py create/destroy aws phishing gophish | To Create/destroy Gophish phishing infrastructure. |
+  | Phishing | Azure | redinfracraft.py create/destroy azure phishing gophish | To Create/destroy Gophish phishing infrastructure. |
+  | Phishing | AWS | redinfracraft.py create/destroy aws phishing evilginx | To Create/destroy Evilginx phishing infrastructure. |
+  | Phishing | Azure | redinfracraft.py create/destroy azure phishing evilginx | To Create/destroy Evilginx phishing infrastructure. |
+  | All-in-one | AWS | redinfracraft.py create/destroy aws full_infra | To Create/destroy all infrastructures in one go (Mythic C2 with CloudFront and Load Balancer, Payload, Phishing). |
+  | All-in-one | Azure | redinfracraft.py create/destroy azure full_infra | To Create/destroy all infrastructures in one go (Mythic C2 with Frontdoor and Load Balancer, Payload, Phishing). |
 
 <br>
 
-## Cost $ Specification Overview (Cloud Resources)
+## 4. Cost & Specification Overview (Cloud Resources)
 
 ### 1. AWS 
 
@@ -180,12 +183,13 @@ Total Estimated Cost: $3.74/day
 Total Estimated Cost: $5.6/day   
 * actual cost may vary
 
+<br>
 
 ## Learning Content
 
 If you want to learn more, please refer to this content:
 
-<br>
+
 
 <div align="center">
 <picture>
