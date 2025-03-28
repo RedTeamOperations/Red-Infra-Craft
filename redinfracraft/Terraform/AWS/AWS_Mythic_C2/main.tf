@@ -82,14 +82,13 @@ resource "aws_instance" "Mythic_EC2" {
 sudo mkdir -p /home/ubuntu/access
 cd /home/ubuntu/access
 
-sudo apt-get update
+sudo apt-get update -y
 sudo apt-get install -y git
 
 sudo git clone https://github.com/its-a-feature/Mythic
 
 cd /home/ubuntu/access/Mythic
 
-sudo apt update
 sudo apt install -y ca-certificates curl gnupg
 
 # Create the keyrings directory (if not already created)
