@@ -3,14 +3,13 @@
 sudo mkdir -p /home/azureuser/access
 cd /home/azureuser/access
 
-sudo apt-get update
+sudo apt-get update -y
 sudo apt-get install -y git
 
 sudo git clone https://github.com/its-a-feature/Mythic
 
 cd /home/azureuser/access/Mythic
 
-sudo apt update
 sudo apt install -y ca-certificates curl gnupg
 
 # Create the keyrings directory (if not already created)
