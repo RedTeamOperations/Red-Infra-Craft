@@ -124,7 +124,7 @@ Command Explanation:
 For the step-by-step guide to spawn/destroy Infra go to [infra_deployment_guide](https://github.com/RedTeamOperations/Red-Infra-Craft/tree/main/infra_deployment_guide)
 
   | Infrastructure | Cloud Provider | Command | Description |
-  | ------ | -- | ------------ | ------ |
+  | ----- | - | -------------- | ------ |
   | Mythic C2 | AWS | redinfracraft.py create/destroy aws c2 mythic | To Create/destroy Mythic C2 infrastructure. | 
   | Mythic C2 | Azure | redinfracraft.py create/destroy azure c2 mythic | To Create/destroy Mythic C2 infrastructure. | 
   | Mythic C2 | AWS | redinfracraft.py create/destroy aws c2 mythic_lb | To Create/destroy Mythic C2 with ELB & CloudFront infrastructure. | 
